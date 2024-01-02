@@ -7,7 +7,7 @@ const router = new Router();
 
 app.use(bodyParser());
 
-router.post('/', async (ctx) => {
+router.get('/', async (ctx) => {
   ctx.body = {
     status: 'running...',
     code: 200,
